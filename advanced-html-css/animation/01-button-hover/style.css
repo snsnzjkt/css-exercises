@@ -17,3 +17,15 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+/* MY SOLUTION */
+
+/* Set initial state of the button */
+button {
+  transition: transform .3s ease-in-out;
+}
+
+/* Apply transition */
+button:hover {
+  transform: scale(1.2)
+}
